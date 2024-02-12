@@ -1,10 +1,10 @@
 using System.ComponentModel.DataAnnotations;
-
+//Nombre en el home
 
 public class Descripcion
 {
     [Key]
-    public string DescripcionId { get; set; }
+    public string? DescripcionId { get; set; }
 
     [Required(ErrorMessage = "El campo fecha es requerido")]
     public string Fecha { get; set; } = string.Empty;
