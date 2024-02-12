@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 
-public class Metas
+public class Monto
 {
     [Key]
-    public int MetasId { get; set; }
+    public int MontoId { get; set; }
 
     [Required(ErrorMessage = "El campo fecha es requerido")]
     public string Fecha { get; set; } = string.Empty;
@@ -13,6 +13,6 @@ public class Metas
     public string Descripcion { get; set; }
 
     [Required(ErrorMessage = "El monto requerido")]
-    public int Monto { get; set; }
+    public int Metas { get; set; }
 
 }
