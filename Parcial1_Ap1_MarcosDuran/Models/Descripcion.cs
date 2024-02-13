@@ -9,7 +9,7 @@ public class Descripcion
     [Required(ErrorMessage = "El campo fecha es requerido")]
     public string Fecha { get; set; } = string.Empty;
 
-    [Required(ErrorMessage = "La descripcion telefono es requerida")]
+    [Required(ErrorMessage = "El campo Metas es requerido")]
     public string Metas{ get; set; }
 
     [Required(ErrorMessage = "El monto requerido")]
